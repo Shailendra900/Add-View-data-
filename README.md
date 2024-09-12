@@ -9,14 +9,18 @@ In Angular application, it is always a best practice to separate data presentati
 Services are available to all classes and could be injected in any class throughout our application. Hence, it is good to write the data access logic in a Service (shown below)
 
 ## Making a POST request
+```
 userData(data:user): Observable<any>{
     return this.http.post('http://localhost:3000/user',data)
   }
+```
 
 ## Making a GET request
+```
 GetData(){
     return this.http.get ('http://localhost:3000/user')
   }
+```
 
 ## Project Output 
 
