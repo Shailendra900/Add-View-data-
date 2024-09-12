@@ -1,0 +1,16 @@
+<div >
+    <button routerLink="">Back to Home</button>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Gmail</th>
+        </tr>
+        <tr *ngFor="let data of allData">
+            <td>{{data.name}}</td>
+            <td>{{data.city}}</td>
+            <td>{{data.gmail}}</td>
+        </tr>
+    </table> 
+</div>

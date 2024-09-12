@@ -1,0 +1,23 @@
+<body>
+    <form #userData="ngForm" (ngSubmit)="onSubmit(userData.value)">
+        <div class="inputform">
+            <div >
+                <label for="name">Neme :</label>
+                <input type="text" name="name" id="name" ngModel placeholder="Enter user name" required="placeholder">
+            </div>
+            <div class="city">
+                <label for="city">City :</label>
+                <input type="text" name="city" id="city" ngModel placeholder="Enter city name" required>
+        
+            </div>
+            <div><label for="gmail">Gmail :</label>
+                <input type="text" name="gmail" id="gmail" ngModel placeholder="Enter gmail" required>
+            </div>
+            <div>
+                <button type="submit">Add Data</button>
+            </div>
+        
+        </div>
+    </form>
+    <button routerLink="view"  class="view-data">View data</button>
+</body>

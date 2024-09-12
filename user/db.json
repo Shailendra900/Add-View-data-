@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "id": "27f2",
+      "name": "Shailendra Kumar Verma",
+      "city": "Raipur",
+      "gmail": "sss"
+    },
+    {
+      "id": "fced",
+      "name": "mukesh",
+      "city": "Raipur",
+      "gmail": "sss"
+    },
+    {
+      "id": "8a09",
+      "name": "SUMSUNG GALAXY A15",
+      "city": "Raipur",
+      "gmail": "sss"
+    },
+    {
+      "id": "6c94",
+      "name": "Shailendra Kumar Verma",
+      "city": "Raipur",
+      "gmail": "shailkumarverma2017@gmail.com"
+    },
+    {
+      "id": "f19c",
+      "name": "Rohit Kumar",
+      "city": "Raipur",
+      "gmail": "rk@gmail.com"
+    },
+    {
+      "id": "26f1",
+      "name": "Mukesh",
+      "city": "Jaipur",
+      "gmail": "mkumar@gmail.com"
+    },
+    {
+      "id": "7174",
+      "name": "Pankaj",
+      "city": "Bhopal",
+      "gmail": "pankajK@2gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+body{
+    height: fill;
+    width: fill;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;    
+    background-image: url('https://img.freepik.com/free-vector/realistic-futuristic-background_23-2149129121.jpg?w=740&t=st=1726062354~exp=1726062954~hmac=5c5aed72306237d5d755c7976993ab564fdff81f6ebeddef66fa8921ab415413');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form {
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    text-align: center;
+    padding: 5%;
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(35px);
+    border: 2px solid black;
+}
+
+label{
+    color: white;
+}
+form input {
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 20px;
+    border-radius: 5px;
+}
+.city{
+    margin-left: -15px;
+} 
+.city input{
+    position: relative;
+    left: 15px;
+}
+
+div button{
+    margin-top: 25px;
+    height: 25px;
+    color: white;
+    background-color: #008CBA ;
+    border-radius: 0 5px 0 5px;
+}   
+.view-data{
+    height: 25px;
+    width: 82px;
+    position: relative;
+    top: 20%;
+    right:13vh;
+    border-radius: 5px;
+}
