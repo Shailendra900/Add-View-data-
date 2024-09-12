@@ -1,5 +1,5 @@
 # Add-View-data-
-## CRUD Operations in Angular 6 using HTTP requests
+## POST and GET Operations in Angular 16 using HTTP requests
 
 In this application, I've used HttpClient's methods - get and post  to perform  operations on the  json data which is run locally with json-server at http://localhost:3000/user
 
